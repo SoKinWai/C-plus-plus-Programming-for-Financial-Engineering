@@ -22,9 +22,8 @@ int printnumber(int i)
 	{
 		printnumber(i / 10);
 	}
-	putchar(i % 10 + '0');
 	
-	return 0;
+	return putchar(i % 10 + '0');
 }
 
 void main()
