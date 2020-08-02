@@ -9,6 +9,6 @@
 void main() 
 {
 	/* my first program in C */
-	printf("My first C-program is a fact! Good, isn¡¯t it ? \n");
+	printf("My first C-program is a fact! Good, isn't it ? \n");
 
 }
