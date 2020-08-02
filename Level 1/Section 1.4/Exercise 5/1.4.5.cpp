@@ -1,5 +1,5 @@
 ﻿//1.4 - Flow Control​
-//Exercise 4
+//Exercise 5
 //Create a C-program that prints two columns on the screen with the temperature in degrees Celsius in the left column and degrees Fahrenheit in the right column.
 //Start with 0 degrees Celsius and proceed until 19 degrees Celsius. 
 //Take steps of 1 degree. Print degrees Fahrenheit with 1 position after the comma. Also print a header text.
