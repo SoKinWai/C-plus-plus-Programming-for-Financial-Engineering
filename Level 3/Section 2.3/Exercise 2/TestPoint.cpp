@@ -20,11 +20,7 @@ void main()
 	//Let the user enter x- and y- coordinates for point 1.
 	cout << "Please enter x- and y- coordinates for point 1 by following format:" << endl << "x y" << endl;
 
-	if (!(cin >> x_a >> y_a))
-	{
-		cout << "This is an error." << endl;
-		return;
-	}
+	cin >> x_a >> y_a;
 
 	Point point_1(x_a, y_a);
 
@@ -37,11 +33,7 @@ void main()
 	//Let the user enter x- and y- coordinates for point 2
 	cout << "Please enter x and y for point 2 by following format:" << endl << "x y" << endl;
 
-	if (!(cin >> x_b >> y_b))
-	{
-		cout << "This is an error." << endl;
-		return;
-	}
+	cin >> x_b >> y_b;
 
 	Point point_2(x_b, y_b);
 
